@@ -1,0 +1,40 @@
+/*Creado con Ardora - www.webardora.net
+bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor*/
+@font-face {font-family: "Ardora_arrows";src: url("fonts/ardoraArrows/Ardora_arrows.eot");src: local("?"), url("fonts/ardoraArrows/Ardora_arrows.woff") format("woff"),
+url("fonts/ardoraArrows/Ardora_arrows.ttf") format("truetype"), url("fonts/ardoraArrows/Ardora_arrows.svg") format("svg");font-weight: normal;font-style: normal;}
+.ui-corner-all{ -webkit-border-radius: 4px; border-radius: 4px;}
+body{background-color:black;}
+#ardoraMain{ font-family:Verdana, Geneva, sans-serif; color: #F0F0F0; padding: 5px; position: relative;}
+#ardoraEnu{ font-size: 12px; position: relative; padding: 5px; margin-bottom: 10px;
+text-align: justify;
+}
+#ardoraAlumSCORM{visibility: hidden;padding:0px;margin:0px;position: absolute;height: 15px;width: 250px;bottom: 0px;right: 0px;cursor: pointer;border-style: dotted;
+border-width: 1px;-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
+-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);font-size: 10px;
+background:rgba(255,128,0,0.5);}
+#ardoraAlumSCORM p{padding:0px;margin:0px;padding-left: 2px;}
+#buttonOk{ position: absolute; height: 70px; width: 70px; bottom: 0px; cursor: pointer;border-style: solid; border-width: 1px;
+-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
+-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5); box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);}
+#ardoraTabCanvas{width: 70px;border-style: solid;border-width: 1px;-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius:4px;-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);box-shadow: 4px 4px 4px rgba(50,50,50,0.5);height:49px;} 
+#ardoraActCanvas{z-index: 0; position: absolute; visibility:hidden;top:0; left:5px;}
+#ardoraAct{position: relative; margin-right: 10px; padding: 5px; float: left;
+}
+#ardoraTab{width: 70px; height:320px;position: relative; visibility: visible;padding:5px;float:left;}
+.topLet{font-size:16px;width:22px;height:22px;text-align:center;}
+.damCell{font-size:16px;width:22px;height:22px;border:solid;border-width:thin;text-align:center;cursor:pointer;}
+.blackCell{font-size:16px;width:22px;height:22px; background-color: black;border:solid;border-width:thin;}
+.cell{width:20px;height:20px;border-width: 0px;text-align:center;}
+.damCellDef{font-size:14px;width:20px;height:20px;border:solid;border-width:thin;text-align:center;cursor:pointer;}
+.topLetDef{font-size:10px;width:20px;height:20px;text-align:center;}
+.cellDef{width:18px;height:18px;border-width: 0px;text-align:center;}
+.butfont{ height: 25px; font-family:"Ardora_arrows",Sans-Serif; font-size: 20px; cursor: pointer; border:1px #666;border-style:solid;color:#000000;
+box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.5); border-radius: 4px;}
+.butfont:hover{box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.5); color: white; background-color: black;}
+#ardoraQue{ text-align: left; margin: auto; padding-top: 10px;}
+#goL{width: 25px; float: left; padding-left: 2px;}
+#goR{width: 25px; float: right; text-align: right; padding-right: 2px;}
+#textQue{font-family:Verdana, Geneva, sans-serif;margin-left: 40px; margin-right: 40px;  text-align: justify; padding: 0px; font-size:16px;}
+#def{text-align: center; float: none;}
+#tableDef {margin: 0 auto;text-align: left;}
